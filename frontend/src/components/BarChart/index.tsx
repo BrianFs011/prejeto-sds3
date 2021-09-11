@@ -51,7 +51,7 @@ const BarChart = ()=>{
       });
       console.log(chartData);
     });
-  },[]);
+  });
 
   const options = {
     plotOptions: {
